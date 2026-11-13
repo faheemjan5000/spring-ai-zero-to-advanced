@@ -73,3 +73,45 @@ public class CustomerSupportController {
     }
 }
 ```
+Let's understand what happens:
+1. A customer sends a question.
+2. The Spring Boot application receives it.
+3. ChatClient sends the question to the configured AI model.
+4. The AI model generates an answer.
+5. Spring AI returns that answer to our application.
+The important thing is that we don't need to manage the low-level API communication ourselves.
+
+PART 1: MULTIPLE LLMs – ONE APPLICATION
+3. What are LLMs?
+LLM stands for Large Language Model.
+
+An LLM is an AI model trained using a large amount of text and other information.
+
+It can understand questions and generate human-like responses.
+
+Examples:
+- GPT models from OpenAI.
+- Llama models from Meta.
+- Gemini models from Google.
+- Claude models from Anthropic.
+Think of an LLM as an intelligent engine that understands natural language.
+
+For our customer-support application, the LLM is responsible for understanding customer questions and generating answers.
+4. OpenAI vs Ollama
+Spring AI allows us to connect different LLM providers.
+
+Let's understand two popular choices.
+OpenAI
+
+
+
+
+
+
+
+
+
+
+OpenAI
+
+OpenAI provides cloud-based AI models. Our Java application sends requests over the internet to OpenAI and receives generated responses.
