@@ -105,7 +105,23 @@ Spring AI allows us to connect different LLM providers.
 Let's understand two popular choices.
 OpenAI
 
+Example:
 
+A customer asks:
+
+"What is your return policy?"
+
+Our Java application sends the question to an OpenAI model, which generates an answer.
+
+Advantages:
+- Powerful hosted models.
+- No need to run the model on your own machine.
+- Easy to integrate using Spring AI.
+- Different models for different requirements.
+Disadvantages:
+- Requires internet access.
+- API usage may have a cost.
+- Sensitive information needs appropriate privacy controls.
 
 
 
