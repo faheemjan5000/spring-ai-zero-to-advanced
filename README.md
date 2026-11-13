@@ -82,7 +82,9 @@ Let's understand what happens:
 The important thing is that we don't need to manage the low-level API communication ourselves.
 
 PART 1: MULTIPLE LLMs – ONE APPLICATION
+
 3. What are LLMs?
+   
 LLM stands for Large Language Model.
 
 An LLM is an AI model trained using a large amount of text and other information.
