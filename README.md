@@ -24,7 +24,8 @@ Normally, when we develop a Java application, we write business logic ourselves.
 
 For example:
 
-```public String getReturnPolicy() {
+```
+public String getReturnPolicy() {
     return "Products can be returned within 30 days.";
 }
 ```
